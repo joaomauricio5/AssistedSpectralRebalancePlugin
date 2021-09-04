@@ -8,6 +8,8 @@ The project deeply explored DSP concepts on a programming level, such as the Fas
 
 <br>
 This plug-in rebalances the spectrum of a piece of audio by comparing and matching it with a suitable reference provided by the user. It can be useful in cases where there are multiple vocal takes in a mixing session, recorded in different conditions (different preamp, different mic, distance to the mic or even the tilt of the mic) but the mixing engineer needs the spectral characteristics to be consistent across the entire performance.
+<br><br>
+The final implementation analyses the long-term average spectrum of the two audio excerpts and calculates the spectral difference between the two. An array of 256 Infinite Impulse Response peak filters is then used to spectrally match the Current to the Target, using the difference analysis as a reference for their gain, Q and centre frequency values.
 
 <p align="center">
 <img width="1400" alt="PluginScreenshot" src="https://user-images.githubusercontent.com/90060036/132075560-2dbc36a6-6410-422e-b1c4-1a0a284a4338.png">
