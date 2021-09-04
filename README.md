@@ -1,6 +1,6 @@
 # AssistedSpectralRebalancePlugin
 <b>
-This was my Final Year Project for university, and it involved 6 months of research, programming, debugging and learning. It's the first audio plug-in I created on my own and it was built with C++, using the JUCE framework. Brief introduction available here: https://vimeo.com/597503612. Full report included in the repository files.
+This was my Final Year Project for university, and it involved 6 months of research, programming, debugging and learning. It's the first audio plug-in I created on my own and it was built with C++, using the JUCE framework. Brief introduction available here: https://vimeo.com/597503612. Full report and user manual included in the repository files.
 <br><br>
 
 The project deeply explored DSP concepts on a programming level, such as the Fast Fourier Transform and Digital Filter Design. Additionally, I was able to learn how to fully program an audio plug-in: from creating the UI, to setting up I/O with the DAW, designing the DSP, implementing save/load methods and DAW automation, and packaging an installer loaded with the AU and VST3 formats of the plug-in.
